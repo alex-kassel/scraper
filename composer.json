@@ -1,0 +1,13 @@
+{
+    "name": "alex-kassel/scraper",
+    "description": "A small scraper collection",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlexKassel\\Scraper\\": "src/"
+        }
+    }
+}
