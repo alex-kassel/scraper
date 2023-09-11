@@ -3,9 +3,14 @@
     "description": "A small scraper collection",
     "license": "proprietary",
     "require": {
-        "php": ">=8.2"
+        "php": "^8.2",
+        "symfony/browser-kit": "^6.3",
+        "symfony/http-client": "^6.3"
     },
     "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
         "psr-4": {
             "AlexKassel\\Scraper\\": "src/"
         }
