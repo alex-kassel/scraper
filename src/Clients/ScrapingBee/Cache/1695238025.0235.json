@@ -1,0 +1,40 @@
+{
+    "microtime": 1695238025.023522,
+    "datetime": "2023-09-20 19:27:05",
+    "methode": "request",
+    "request": [
+        "curl -X GET",
+        "-D -",
+        "\"https:\/\/app.scrapingbee.com\/api\/v1\/?api_key=EQB59W9HDW8XFVETXLFAEG9Q425DUFOZX0W6FVLJ3UIEMRAYRMNXW4PVJ31Y3J2RKNRDP7UIZDLL7N0P&url=https%3A%2F%2Fsuchen.mobile.de%2Ffahrzeuge%2Fsearch.html%3Fdam%3D0%26isSearchRequest%3Dtrue%26ms%3D25200%253B%253B29%253B%26rd%3D100%26ref%3DquickSearch%26sb%3Drel%26vc%3DCar\""
+    ],
+    "response": {
+        "url": "https:\/\/suchen.mobile.de\/fahrzeuge\/search.html?dam=0&isSearchRequest=true&ms=25200%3B%3B29%3B&rd=100&ref=quickSearch&sb=rel&vc=Car",
+        "response": {
+            "headers": {
+                "Date": "Wed, 20 Sep 2023 19:27:26 GMT",
+                "Content-Type": "text\/html",
+                "Content-Length": "638",
+                "Spb-cache-control": "max-age=0no-cache, no-store, must-revalidate",
+                "Spb-content-length": "721",
+                "Spb-content-type": "text\/html",
+                "Spb-date": "Wed, 20 Sep 2023 19:27:23 GMT",
+                "Spb-expires": "Wed, 20 Sep 2023 19:27:23 GMT0",
+                "Spb-set-cookie": "bm_sv=65478CC2255ACA2B0155120B29888B28~YAAQaB1BFzVgfLCKAQAAebgPtBWr8z+zRQlp2tSjuWaQzSTmh\/yfc5Lk\/Wckt2BQ4v19k7i8upP8QrM87hm+oz2HpUJleDLR9pOwEWPuLmOF6hpxXE5g0Vj7CsklIoarh1HEcMu4Ynlg3kFfduC52YT4+S4KaCzSuk3TkyW6dYDpLI1gTrTIGiwqzdfCwW0zeYY2q6C\/SsJyKqQ5Q\/5t40W8uJwkuElNfgujp7cKal87rC3cFRHQxDjTf\/j\/+zc=~1; Domain=.mobile.de; Path=\/; Expires=Wed, 20 Sep 2023 21:27:23 GMT; Max-Age=7200; SameSite=None; Securesec_cpt=31E998CE94C965F7E2B6C69FC5135B64~1~YAAQaB1BFzZgfLCKAQAAebgPtAltccD0GQkcpD2g5Dbio3juS6cGr6z8ue3zomdYGQM2vbBRmlmuMrpVkmOKFQVbZy22a9ksb0Nel45uRlFIKyjPTloUcrgWTgsNFxFDuqus4qUvhlw5FpwcspByltuELk9C4hHEWdyPaRtaS4t0B0VqDMNMI889bFsS+kjS+wBuzbKDb4oqH9ChsL2DtIfv0XDaI94h7kq8PY69+MSMAB66IB6Kcf3BZlxa5pJhU6COiGAXtb1YPO\/GVSL8kdQRtE2GgcLH1HhZOIY5d\/8iFExyw0QXBt\/3UFLrOTmW7X3tfdJyXI5pco2W+6LIR02CgdcN7iztsYctsOJNNi1XBwh4npAHJbhFAbDAuJpQTPsvUJ9orrgEPynndW4\/B6VtVzxu+0t11f1LTxVb5+zCHkU+xg0xyXN49Nl57JFZwgbJtrVaC8A8iIKnyR246QigHtu2Lry6vREryxwayg3CzKjg24yXqZbmvxRWZWjR0ZvvlHhsnf0PNjS79OWu8TM9V+o8GNJHZDHtPC8gq4acOj23cnyyvrua40g6ngV2Isc2mLirNQCZF79G3Cb486YKBJPyDkrX5ITQWRf+23zn6OOfN7g26BJCCT3o+x0ws+WB7ocRQq9ybtcjelvqlf61bysE015+AVTc3ud7z6gNBCMwD1AeAxAJ61zFeGoVLDb7Bth1ZX0ugSMq+Aaxi0+aCwHOLf+6J9vcdtm5Q8m5agWueYoiWsAASaOVuNSxiM6YQb8cDvDaFurs8l6VSk6XWsoN4g1jffKmbktKPhfi8U\/0vJF7ntyTUime7iabZCZxuyYzBFx9PItVeUHUcmtYF4CArMjN+hwtP\/vFELiOgWXnxB\/s0t8Gu4cDYg==; Domain=.mobile.de; Path=\/; Expires=Wed, 20 Sep 2023 20:27:23 GMT; Max-Age=3600; SameSite=None; Secure",
+                "Spb-cost": "0",
+                "Spb-initial-status-code": "200",
+                "Spb-resolved-url": "https:\/\/suchen.mobile.de\/fahrzeuge\/search.html?dam=0&isSearchRequest=true&ms=25200%3B%3B29%3B&rd=100&ref=quickSearch&sb=rel&vc=Car",
+                "Set-Cookie": "bm_sz=4FC43F8407EBAFE627FB81FF73BB63A5~YAAQaB1BFxxgfLCKAQAAjLUPtBWwh\/lMgzwDDo6b5mkj4tLwmOWKClcURS1\/SYkylCGQeC5UoXU2sCEq9AgMCkn1Lf8VPKtlIwduTHKsocv1iw8lJtFSnqWcuhe0vUo7XDo4+ceDxe8VPK5xXrqRjQzAUkGO0nkDp0N8C9RJlbJ3sATy3GDTAUN0C11hBRLMNL0hA0+lTJz0twT\/zfAj29mTq55tBkYMIpg5d2tNpHhc5Q3MrlYXFriFoE4kiurtQtkE9PlQwrr5ZV06wTh0ZSCbC06NaAh0ZekhRhpVRZargA==~3622198~4469559; Domain=mobile.de; Expires=Wed, 20 Sep 2023 23:27:23 GMT; Path=\/",
+                "Access-Control-Allow-Origin": "*",
+                "Permissions-Policy": "browsing-topics=()",
+                "X-Frame-Options": "SAMEORIGIN",
+                "X-Content-Type-Options": "nosniff",
+                "Strict-Transport-Security": "max-age=31556926; includeSubDomains",
+                "Referrer-Policy": "strict-origin-when-cross-origin",
+                "Vary": "Cookie",
+                "Sozu-Id": "01HAT0YW1EQWGM3A4WTB8AZA5M"
+            },
+            "body": "{\"error\": \"Error with your request, please try again (you will not be charged for this request).You should: 1) check that your URL is correctly encoded 2) try with block_resources=False 3) try with premium_proxy=True see documentation: https:\/\/www.scrapingbee.com\/documentation#premium_proxy (10-25 credits per request) 4) try with stealth_proxy=True see documentation: https:\/\/www.scrapingbee.com\/documentation#stealth_proxy (75 credits per request) Do not hesitate to check our troubleshooting guide: https:\/\/www.scrapingbee.com\/documentation\/troubleshooting-guide\", \"reason\": \"Server responded with 500\", \"help\": \"Encountered CAPTCHA\"}"
+        }
+    },
+    "exec_time": 21.392096996307373
+}

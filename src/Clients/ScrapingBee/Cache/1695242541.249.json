@@ -1,0 +1,40 @@
+{
+    "microtime": 1695242541.248958,
+    "datetime": "2023-09-20 20:42:21",
+    "methode": "request",
+    "request": [
+        "curl -X GET",
+        "-D -",
+        "\"https:\/\/app.scrapingbee.com\/api\/v1\/?api_key=EQB59W9HDW8XFVETXLFAEG9Q425DUFOZX0W6FVLJ3UIEMRAYRMNXW4PVJ31Y3J2RKNRDP7UIZDLL7N0P&url=https%3A%2F%2Fsuchen.mobile.de%2Ffahrzeuge%2Fsearch.html%3Fdam%3D0%26isSearchRequest%3Dtrue%26ms%3D25200%253B27%253B%253B%253B%26ref%3Dsrp%26refId%3Dd0e98442-0ccd-b86a-3c5c-6dc2dfc3e02c%26s%3DCar%26sb%3Drel%26vc%3DCar\""
+    ],
+    "response": {
+        "url": "https:\/\/suchen.mobile.de\/fahrzeuge\/search.html?dam=0&isSearchRequest=true&ms=25200%3B27%3B%3B%3B&ref=srp&refId=d0e98442-0ccd-b86a-3c5c-6dc2dfc3e02c&s=Car&sb=rel&vc=Car",
+        "response": {
+            "headers": {
+                "Date": "Wed, 20 Sep 2023 20:42:38 GMT",
+                "Content-Type": "text\/html",
+                "Content-Length": "638",
+                "Spb-cache-control": "max-age=0no-cache, no-store, must-revalidate",
+                "Spb-content-length": "721",
+                "Spb-content-type": "text\/html",
+                "Spb-date": "Wed, 20 Sep 2023 20:42:36 GMT",
+                "Spb-expires": "Wed, 20 Sep 2023 20:42:36 GMT0",
+                "Spb-set-cookie": "bm_sv=1DF686DC91C6B2CD2C4911EB7EE7B96F~YAAQ7JrYFz7lFrSKAQAA8JNUtBUB8CNDHOmPl6ALS3KsX34uSG00+b8Vf9gY0Z+xgu0oI6VV+9EbIaIScQw+1JN+mZGW2RWgTjwq0Um\/FI+be\/gSXRpYHVFnkxugZb9QR0jX23gM8SmaVbM9Gg96gXNKGZMjU0\/\/iIHWknpRMdrtww7+F8P72euewV3EK1xRM2QuZ58KFGAejIYBlXFS8SUP6gsZqFinbplPF66wl8x7J9HUNnWsMTvi2ERXY0c=~1; Domain=.mobile.de; Path=\/; Expires=Wed, 20 Sep 2023 22:42:36 GMT; Max-Age=7200; SameSite=None; Securesec_cpt=379D67773D27BFE6E429D5FDFAC89012~1~YAAQ7JrYFz\/lFrSKAQAA8JNUtAm7qfTzar2YaKX0d0iNHfMZN6\/KMQsJ7NEnzN+Kve7X4ZAkXglD2rmiUyJtsUw6e6DNlcg1Fm2BCswcqpCMtTV+HkH9QhrRVO1cZEL5SWimfALdSxShmYjvKCNGkmi8laDdEtd\/IY7up3D9JhHd\/HYZEkgeID0GSCxUQ+iMCGJQjQqW4JhUQxJiAOSAHAIHIintoiTxabCefjMGFfMBM97Jl2fjr6lYlHMivDcYh1+BXeiZheFF59QVFyFcwlXXuOqnRnbudk8qr23gpNHueV8BPlLEzzm3WNJScWWUmOr1TmHLgQ+sVyATHuU1cCe\/+dg+Iz5C6dxxWay+L\/WNWlybzl1ovbZwi6MZ3P7n0pD6VbXJDPJYBH+NrQTmKInCCzBF4WF8AbtIn0Fo8lyiXIr1rwcH3EFJh\/bYAYFf4GuHX+GYZvoUaxjgb70nRx011aefZJ6T+sG0toZtTiVRGfEFp5TRT1bX95fqN+XJj9fCuphhDEjywnTd46C3ON8vPuJ9LdtRbNKe1hZxHdH5iWhetEcGR9xK8IGeJbkikX8CxoUcyBoZBGJKoCFngsSHM8hbDdUPeksDQdexwg+LtZDW5OC39xkNEfb3e8NaA+ZBIzW7cB1yreEvKLPQ8D4gRvUXdljXz37RxXjszAZ2M+Mv1XQHBz3+OOGYyTd\/6fqjo4jbXo3GS+YO3wghnO6w+Sh3+NTtHf787C5HQImed6Dcjnnsu7\/WoXk6aFIY7CgCZKFn3oX44FVrBEt4dR+GETJbm+\/NSEXlMwNcDCQFccwtFaw+0+RS6XK0SzOtNCAOXiKwTgHZSg==; Domain=.mobile.de; Path=\/; Expires=Wed, 20 Sep 2023 21:42:36 GMT; Max-Age=3600; SameSite=None; Secure",
+                "Spb-cost": "0",
+                "Spb-initial-status-code": "200",
+                "Spb-resolved-url": "https:\/\/suchen.mobile.de\/fahrzeuge\/search.html?dam=0&isSearchRequest=true&ms=25200%3B27%3B%3B%3B&ref=srp&refId=d0e98442-0ccd-b86a-3c5c-6dc2dfc3e02c&s=Car&sb=rel&vc=Car",
+                "Set-Cookie": "bm_sz=121CD8CB9AAFC3C43BB26971B5DAC25E~YAAQ7JrYFxLlFrSKAQAA1pFUtBU8Knj7hVhK\/66c1KJmPszYGVlIEd51Q7vpYGcqbKSe3yPAJIVVN6zDys2xnptLFdjLkMGSizRLSBcq0Qd1oO7jDIJM5mQ9Sw8o0PLwVcmaCiT1Bv2PBxarlYCQJHgEXmVMArpwi3SsBBhwLyFBRrirqoquzIbQuFutJWiZIxoDdQyH27384CCurcAKszr\/jJDErZfecbpnuxGSkb1sHLKWYHeipKQaOwvLMKZ8E4nxXeYr0fGEpV0y+MvpKpNiWfr7YRYSKvFAwApKlfAx7g==~3359287~3617346; Domain=mobile.de; Expires=Thu, 21 Sep 2023 00:42:35 GMT; Path=\/",
+                "Access-Control-Allow-Origin": "*",
+                "Permissions-Policy": "browsing-topics=()",
+                "X-Frame-Options": "SAMEORIGIN",
+                "X-Content-Type-Options": "nosniff",
+                "Strict-Transport-Security": "max-age=31556926; includeSubDomains",
+                "Referrer-Policy": "strict-origin-when-cross-origin",
+                "Vary": "Cookie",
+                "Sozu-Id": "01HAT58PAS80SNCCY1B4C3KBM9"
+            },
+            "body": "{\"error\": \"Error with your request, please try again (you will not be charged for this request).You should: 1) check that your URL is correctly encoded 2) try with block_resources=False 3) try with premium_proxy=True see documentation: https:\/\/www.scrapingbee.com\/documentation#premium_proxy (10-25 credits per request) 4) try with stealth_proxy=True see documentation: https:\/\/www.scrapingbee.com\/documentation#stealth_proxy (75 credits per request) Do not hesitate to check our troubleshooting guide: https:\/\/www.scrapingbee.com\/documentation\/troubleshooting-guide\", \"reason\": \"Server responded with 500\", \"help\": \"Encountered CAPTCHA\"}"
+        }
+    },
+    "exec_time": 17.59869694709778
+}

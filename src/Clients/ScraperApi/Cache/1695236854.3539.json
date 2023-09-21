@@ -1,0 +1,31 @@
+{
+    "microtime": 1695236854.353857,
+    "datetime": "2023-09-20 19:07:34",
+    "methode": "request",
+    "request": [
+        "curl -X GET",
+        "-D -",
+        "http:\/\/api.scraperapi.com?api_key=4e42bbe6e49e05fa3eb921bc387b6820&url=https%3A%2F%2Fsuchen.mobile.de%2Ffahrzeuge%2Fsearch.html%3Fdam%3D0%26isSearchRequest%3Dtrue%26ms%3D25200%253B%253B29%253B%26rd%3D100%26ref%3DquickSearch%26sb%3Drel%26vc%3DCar"
+    ],
+    "response": {
+        "url": "https:\/\/suchen.mobile.de\/fahrzeuge\/search.html?dam=0&isSearchRequest=true&ms=25200%3B%3B29%3B&rd=100&ref=quickSearch&sb=rel&vc=Car",
+        "response": {
+            "headers": {
+                "Date": "Wed, 20 Sep 2023 19:07:36 GMT",
+                "Content-Type": "text\/html; charset=utf-8",
+                "Content-Length": "184",
+                "Connection": "keep-alive",
+                "X-Powered-By": "Express",
+                "Access-Control-Allow-Origin": "undefined",
+                "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept",
+                "Access-Control-Allow-Methods": "HEAD,GET,POST,DELETE,OPTIONS,PUT",
+                "Access-Control-Allow-Credentials": "true",
+                "X-Robots-Tag": "none",
+                "ETag": "W\/\"b8-UjYVYRqeQxswkZsE2K8Ir4AHvSs\"",
+                "Vary": "Accept-Encoding"
+            },
+            "body": "Error, malformed request. Make sure your URL is typed correctly. If you believe you are receiving this message in error, please try the request again or contact support@scraperapi.com."
+        }
+    },
+    "exec_time": 2.0743069648742676
+}

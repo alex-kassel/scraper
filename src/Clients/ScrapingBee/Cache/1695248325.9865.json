@@ -1,0 +1,48 @@
+{
+    "microtime": 1695248325.986526,
+    "datetime": "2023-09-20 22:18:45",
+    "methode": "request",
+    "request": [
+        "curl -X GET",
+        "-D -",
+        "\"https:\/\/app.scrapingbee.com\/api\/v1\/?api_key=EQB59W9HDW8XFVETXLFAEG9Q425DUFOZX0W6FVLJ3UIEMRAYRMNXW4PVJ31Y3J2RKNRDP7UIZDLL7N0P&url=https%3A%2F%2Fsuchen.mobile.de%2Ffahrzeuge%2Fsearch.html%3Fdam%3D0%26isSearchRequest%3Dtrue%26ms%3D25200%253B27%253B%253B%253B%26ref%3Dsrp%26refId%3Dd0e98442-0ccd-b86a-3c5c-6dc2dfc3e02c%26s%3DCar%26sb%3Drel%26vc%3DCar&premium_proxy=True&extract_rules=%7B%22title%22%3A%22title%22%2C%22items%22%3A%7B%22selector%22%3A%22a%5Bdata-listing-id%5D%22%2C%22type%22%3A%22list%22%2C%22output%22%3A%7B%22name%22%3A%22.h3%22%7D%7D%7D\""
+    ],
+    "response": {
+        "url": "https:\/\/suchen.mobile.de\/fahrzeuge\/search.html?dam=0&isSearchRequest=true&ms=25200%3B27%3B%3B%3B&ref=srp&refId=d0e98442-0ccd-b86a-3c5c-6dc2dfc3e02c&s=Car&sb=rel&vc=Car",
+        "response": {
+            "headers": {
+                "Date": "Wed, 20 Sep 2023 22:18:55 GMT",
+                "Content-Type": "application\/json; charset=utf-8",
+                "Content-Length": "1823",
+                "Spb-accept-ranges": "none",
+                "Spb-cache-control": "no-cache, no-store, must-revalidate",
+                "Spb-content-encoding": "gzip",
+                "Spb-content-type": "text\/html;charset=utf-8",
+                "Spb-date": "Wed, 20 Sep 2023 22:18:49 GMT",
+                "Spb-expires": "Wed, 20 Sep 2023 22:18:49 GMT",
+                "Spb-pragma": "no-cache",
+                "Spb-set-cookie": "mdeTheme=system; Domain=.mobile.de; Expires=Fri, 20 Oct 2023 22:18:49 GMT; Path=\/; Securevi=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaWQiOiI1ZDRjMWJjYS1hNzcxLTQ2MzYtODVmMS1iODFhNzc4Y2FkOTgiLCJpYXQiOjE2OTUyNDgzMjksImRudCI6dHJ1ZX0.lpzaAhqoW9wnRVRUrQgCxCqdlNyyr1XlL23mP-SAEgA; Domain=.mobile.de; Expires=Fri, 19 Sep 2025 22:18:49 GMT; Path=\/; Secure; HttpOnlymobile.LOCALE=de; Domain=.mobile.de; Expires=Thu, 21 Sep 2023 01:05:29 GMT; Path=\/; Secure_abck=240FB3D12A696DDA00B925D10B0CCAF0~-1~YAAQHFfIFwYBqpGKAQAAcKqstAroJRvjFha+gmGR4lcYM5+DQ0A3f\/bw5nea5UlsXeV2SQvT\/pHhTt+pt0sl2pUpyQ7adVeFP88aqqdHEbkUGh3SVLHy5J+NA2FPh0KDhmNAuRzHf5F5jGkaNK8W3iTdVB9lK3\/U7vhB0cL0oDe+F86XEKJ6kdqc13NP2UbYTYf4Ccl+0dJi5Z4VymLGvD\/j8zP1ESSo9tWLX2dyUZJl2dsM+ep6uXzG\/ZHmP0k3A1R4Lch+Tq+S\/DDTGcy\/Aj3PRe6zTdM9z5YjdlahHLk+cRz6ikpVeM1PAR2poA37cBgsaw1v90qX0Xt4ekrOQL9e+VMIxaA6oNFu+mfWnK8phDacd2d9LRuhC9djc62\/s+4r4J2V78o=~-1~-1~-1; Domain=.mobile.de; Path=\/; Expires=Thu, 19 Sep 2024 22:18:49 GMT; Max-Age=31536000; SameSite=None; Secureak_bmsc=D6ED39024EEB8B4204E65445D58EF13E~000000000000000000000000000000~YAAQHFfIFwcBqpGKAQAAcKqstBWsJzyKpPWs9N0ayN0Afb2w9P0St0kq9DD0ebbYjLD\/s09vNuvH7fdJh1YQA0am\/5V\/hLz2cLoctFM6Bpuem2UV7QjbeuMFPoKAvR8Csd0GRz0jP481t0hBk+4o5LXtBWURT5ss62BEIeEfoXAz5Oz5yPTjVRUCp8u9HmIEOvbGycc9Qs0YyV6Or5mIalMG+5mq\/mRrqWyiNYwIfHqNXX2B6akYmfWFzmuSaaaehJ8iuvFBHoXTnl5rjxg8kpwFpvX2UCtcsYWtbFIqCf5bzQ3sMoGb4VBNo14i8GnOvp91oteq9IpmrwcpYcSY8Stpg61PXqMpyTZ0DlRRgUrcIHKuS15czIxn3apu0JOJnCv5jnFItP7o65Tx\/pQWs8XiesvJloYBte8j625T2afCYxo75O8or0fv+JMPlbNeLTyLGaJbzjV7gWqgTLX33Kbp7J2jP4jhJib61mVsry8NHRld6hHkzCjNeLPAByPY08AeYMe0qqnvIzo=; Domain=.mobile.de; Path=\/; Expires=Thu, 21 Sep 2023 00:18:48 GMT; Max-Age=7199; SameSite=None; Securebm_mi=CB90BB7F69C76922A912999890072C36~YAAQHFfIFwgBqpGKAQAAcaqstBXcA9CDBJmxx4OAjtSb\/c5yQWSRlgsWaXPT8qK60Za69ZkVOqI7YMBUph\/RJshyNnrYctzElKzgWavjcmHPlFjdpOGoZTqech9BVWX\/ldIXlDV4yySqUJU8XkAeQwLYrJmvz1ouhut+OxO8DLPMLRIJZRyWU07pkF2GlSzIhw3mHcK1peSUj3UZasJQhhFDZXq61LgWd3oD7fKunfBBxKQ9oekmmhRuLpOGA34OOXrFQjHXBuskKzkG41BPzc8A0vVE8zkVCTqWpx8QOyLG0jpizJBA\/I9zWvLvW8dfzCwtIR1yRs8B89WmrjStX1j6~1; Domain=.mobile.de; Path=\/; Expires=Thu, 21 Sep 2023 00:18:48 GMT; Max-Age=7199; SameSite=None; Securebm_sv=18F7C2086C73399F4D3D1A50DF9183EE~YAAQHFfIFwkBqpGKAQAAcaqstBVlMZg2uT+2GH026Oi4x\/719+XgTgYq8O5HAwl1CvyNFnBgQCEWe7a\/wWUWfVqaO5hu6Pg8z68c08oQMGZVoiWiIC+zS\/eHQzBezjtrr94X8J5SfVa6iugtF5j3xdLd9izhZYpXqGWt0aNiseAFQTF16AoYXwDXLZRmXv6aHdyfDhmwV1JLpYGuU2Vs6VbP09BJE8hcZF9q3+rqENNUKXFyErqDLN7Uvb+Yli4=~1; Domain=.mobile.de; Path=\/; Expires=Thu, 21 Sep 2023 00:18:48 GMT; Max-Age=7199; SameSite=None; Secure",
+                "Spb-strict-transport-security": "max-age=15724800; includeSubDomains",
+                "Spb-vary": "Accept-Encoding,User-Agent,Origin",
+                "Spb-x-akamai-transformed": "9 - 0 pmb=mTOE,4",
+                "Spb-x-content-type-options": "nosniff",
+                "Spb-x-frame-options": "DENY",
+                "Spb-x-xss-protection": "1; mode=block",
+                "Spb-cost": "25",
+                "Spb-initial-status-code": "200",
+                "Spb-resolved-url": "https:\/\/suchen.mobile.de\/fahrzeuge\/search.html?dam=0&isSearchRequest=true&ms=25200%3B27%3B%3B%3B&ref=srp&refId=d0e98442-0ccd-b86a-3c5c-6dc2dfc3e02c&s=Car&sb=rel&vc=Car",
+                "Set-Cookie": "bm_sz=617CEB8A02250DF6D843D169A414C796~YAAQHFfIF+YAqpGKAQAA\/KestBWLp71sPo3DadKJNJIwpTB4FS\/2lZuBCeW0LATLrZN2RgKAPo6o3gmvlaxZjqR5ANOdXUS8Yckag2NYY2YmsWs2mwCHVBY9svvF5aemzax+Ybi5dcGh6QgTeMTPxeIRCIf2XBf3YCb2M4YbyyCAkPkc7qFBvGZ0YYSTgZSs3AKQ4WU\/o9AC9uSmqMfgak9y5CXpp0YjY\/X1Vye2ThhNRyKAy6l3z+iVGWueFiBhAiSEFHao+76qlG1pNnJikAWoqsPDtxYMkxiIjthbImLIbQ==~3682617~3491142; Domain=mobile.de; Expires=Thu, 21 Sep 2023 02:18:48 GMT; Path=\/",
+                "Access-Control-Allow-Origin": "*",
+                "Permissions-Policy": "browsing-topics=()",
+                "X-Frame-Options": "SAMEORIGIN",
+                "X-Content-Type-Options": "nosniff",
+                "Strict-Transport-Security": "max-age=31556926; includeSubDomains",
+                "Referrer-Policy": "strict-origin-when-cross-origin",
+                "Vary": "Cookie",
+                "Sozu-Id": "01HATAS7MR4Y13BMRRH3QVCERC"
+            },
+            "body": "{\"title\": \"Volkswagen Polo | Auto kaufen bei mobile.de\", \"items\": [{\"name\": \"Volkswagen Polo V Cross 1.2 TSI Einparkhilfe Sitzheizung\"}, {\"name\": \"\"}, {\"name\": \"\"}, {\"name\": \"\"}, {\"name\": \"\"}, {\"name\": \"\"}, {\"name\": \"\"}, {\"name\": \"\"}, {\"name\": \"\"}, {\"name\": \"\"}, {\"name\": \"\"}, {\"name\": \"Volkswagen Polo 1.2 TSI DSG Navi SHZ PDC Klima Radio\/CD\"}, {\"name\": \"Volkswagen POLO GTI DSG NAVIGATION+SITZHEIZUNG+F\u00dcR GEW\/EXP.\"}, {\"name\": \"Volkswagen Polo 1.0 TSI DSG Comfortline LED Navi AHK AAC\"}, {\"name\": \"Volkswagen Polo GTI DSG*APP-CON*ACC*LED*DYN.LIGHT ASSIST*\"}, {\"name\": \"Volkswagen Polo GTI DSG Navi Kamera Tempomat\"}, {\"name\": \"Volkswagen Polo VI Comfortline,KLIMA,GARANTIE,BLUETOOTH,PDC\"}, {\"name\": \"Volkswagen Polo VI 1.0 TSI Join LED+NAVI+ACC+SHZ+PDC V&H+MF\"}, {\"name\": \"Volkswagen Polo V Highline Tempomat Climatronic Sitzheizung\"}, {\"name\": \"Volkswagen Polo V 1.2 TSI Comfortline 66kW T\u00dcV neu Garantie\"}, {\"name\": \"Volkswagen Polo V 1.2 TSI Sound+Sitzhzg.+PDC+Klima+5-T\u00fcrer\"}, {\"name\": \"Volkswagen Polo 2.0 TSI GTI DSG LED AAC Navi VC PDC SHZ App\"}, {\"name\": \"Volkswagen Polo VI Comfortline Automatik ACC App-Connect\"}, {\"name\": \"Volkswagen Polo Cross 1.2 TSI Klima Sitzheizung\"}, {\"name\": \"Volkswagen Polo VI Highline 1,0 l TSI NAVI+ACC+SHZ+PDC V&H+\"}, {\"name\": \"Volkswagen Polo V R 2.0 WRC 430\/2500\"}, {\"name\": \"Volkswagen Polo 1 0 TSI IQ.Drive DSG NAVI SHZ PDC LM ZV\"}, {\"name\": \"Volkswagen Polo Highline+1.5+TSI+DSG+NAVI+LED\"}, {\"name\": \"Volkswagen VW Polo R WRC 2.0 TSI\"}, {\"name\": \"Volkswagen Polo V R WRC *Alcantara*Limited 1986\/2500*\"}, {\"name\": \"Volkswagen Polo Highline+1.0+TSI+NAVI+ACC+Klima+Pano\"}, {\"name\": \"Volkswagen Polo GTI VI 2,0 TSI NAVI+ACC+RFK+SHZ+CARPLAY+\"}, {\"name\": \"Volkswagen Polo V GTI BMT|LED|DSG|Navi|Kamera|4\/5T\u00fcrig\"}, {\"name\": \"Volkswagen Polo Comfortline+1.0+TSI+LED+RFK+PDC+DSG\"}]}"
+        }
+    },
+    "exec_time": 9.555377006530762
+}

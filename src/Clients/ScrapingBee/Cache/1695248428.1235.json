@@ -1,0 +1,47 @@
+{
+    "microtime": 1695248428.123463,
+    "datetime": "2023-09-20 22:20:28",
+    "methode": "request",
+    "request": [
+        "curl -X GET",
+        "-D -",
+        "\"https:\/\/app.scrapingbee.com\/api\/v1\/?api_key=EQB59W9HDW8XFVETXLFAEG9Q425DUFOZX0W6FVLJ3UIEMRAYRMNXW4PVJ31Y3J2RKNRDP7UIZDLL7N0P&url=https%3A%2F%2Fsuchen.mobile.de%2Ffahrzeuge%2Fsearch.html%3Fdam%3D0%26isSearchRequest%3Dtrue%26ms%3D25200%253B27%253B%253B%253B%26ref%3Dsrp%26refId%3Dd0e98442-0ccd-b86a-3c5c-6dc2dfc3e02c%26s%3DCar%26sb%3Drel%26vc%3DCar&premium_proxy=True&extract_rules=%7B%22title%22%3A%22title%22%2C%22items%22%3A%7B%22selector%22%3A%22a%5Bdata-listing-id%5D%22%2C%22type%22%3A%22list%22%2C%22output%22%3A%7B%22name%22%3A%22.h3%22%2C%22url%22%3A%22%40href%22%7D%7D%7D\""
+    ],
+    "response": {
+        "url": "https:\/\/suchen.mobile.de\/fahrzeuge\/search.html?dam=0&isSearchRequest=true&ms=25200%3B27%3B%3B%3B&ref=srp&refId=d0e98442-0ccd-b86a-3c5c-6dc2dfc3e02c&s=Car&sb=rel&vc=Car",
+        "response": {
+            "headers": {
+                "Date": "Wed, 20 Sep 2023 22:20:40 GMT",
+                "Content-Type": "application\/json; charset=utf-8",
+                "Content-Length": "69",
+                "Spb-accept-ranges": "none",
+                "Spb-cache-control": "no-cache",
+                "Spb-content-encoding": "gzip",
+                "Spb-content-type": "text\/html; charset=utf-8",
+                "Spb-date": "Wed, 20 Sep 2023 22:20:32 GMT",
+                "Spb-expires": "Wed, 20 Sep 2023 22:20:32 GMT",
+                "Spb-set-cookie": "mobile.LOCALE=de; Domain=.mobile.de; Path=\/; Securevi=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaWQiOiI4NjM1MGQ2ZC0yY2QzLTRhODYtOTI3Zi03M2Q0YzE2MjE5NTIiLCJpYXQiOjE2OTUyNDg0MzIsImRudCI6dHJ1ZX0.7bN-p9sPROMypHzO0Nvne6IOB0M_fTK1ol_P1vD2wvQ; Max-Age=63072000; Domain=.mobile.de; Path=\/; Expires=Fri, 19 Sep 2025 22:20:32 GMT; HttpOnly; Secure; SameSite=None_abck=FA70126C97A55F5DE385FE9016718592~-1~YAAQ3prYF0vDlqyKAQAARj6utAp\/WX72Leo0iX6hI6vJJFnPjK+U8+VOCz7CHmSXOjOnaW+1+465regYmnlu0YcmPjF5ms1g8plnjJ7ZZbNGR6zURiCWffrNzpZchA6HMEv3kHsy6D7MQPFai1G1iKMlx8HwMr50AChzFSZWybJfDBAhnYnB+4YcZEEPYwsEhdJDY6nyuJiZ8jLMhphkgNKP4yswvZ5HOqPJzy40coDDvBLx6mEXGCVHO\/ud+B\/aqTvy1zVBrgdfWxwQuuGlIxeue59ycmFVIRLEOnAfodDHNTtFNoi3iIGELbe1rMU\/+bd3oIU+EhWMdouFYNVdpk4pQtlc2HclFyOIgWG4uX8YzJqLwAXcySvMHo+S33x6CUJD5XOZR5o=~-1~-1~-1; Domain=.mobile.de; Path=\/; Expires=Thu, 19 Sep 2024 22:20:32 GMT; Max-Age=31536000; SameSite=None; Secureak_bmsc=7E160DC6CE4A5A55B26363DC786C54A1~000000000000000000000000000000~YAAQ3prYF0zDlqyKAQAARj6utBU1kCzOsD+qRb65+DkZkjjdxs6aao11bxq+ojxNReccUl3EAKN\/pH5h25HH7tvltlnYvsQa28yDC2ifeRFT374IaO7go51CLHuWVEAk4fHEd6xPmV0y0DkLSqOSd7EzyKjHfNzGxAeEMZ3SCIqf+2fdDAGd7eutQ33kviAHyNKe7pSsyKgm79p+V\/f9AukSFyP0Dilcq2Aje+HPrDBn78mWkTr2tYjXohAKdztIXglWm88vfrF2I2FynyCSlWGN0BqyKy5R5Cqqrd86d3ylNrDxZP6hN0V0m\/FB5OEwCuqWi\/X\/7uCAK\/rZjzXlEXHy5G1KvbNP48cuUfdDCQVwW7sg9ynR4z6jvUS2HdcfilU3n2IaU1G75fparFKdGH7HPzTHplfmoeMopyHrYKt01y16f96NOVLG4OWyDFuvWjt7OlubRsbtHVXvo6CB; Domain=.mobile.de; Path=\/; Expires=Thu, 21 Sep 2023 00:20:31 GMT; Max-Age=7199; SameSite=None; Secure; HttpOnlybm_mi=AE9DB0821204D8782B199A0DEAFAAB5B~YAAQ3prYF03DlqyKAQAARj6utBUiZR3MpRnWINpUPpVi+NDi243ADYXHclkJ3oUw5MLsyM9tv1jLEl2pLSlqPEK3GZ5TO1STeN4yCCalRjtQOS+Po\/qb+GvmL2GSsRTSRB7\/z6v8ekaXvSCudXaTPJuoNrGcKEwwvhEpyJXJdY6ss0afP29fqz\/KtyIrvvXlSHDHxdJ0SvA2NYB\/YmFL\/jL5heCPjL7pV7cG2IggjjNcc7J33Ri3CmPZ4qDpaEUYbJHFcQL8S0TWcTRv4h+XEjDV7TRQ0iW+hmUdtYxaWtlxkPKAqbCK\/VK5E6xC4nMYxZbwanm8f9xwVXrVP5elH2H5~1; Domain=.mobile.de; Path=\/; Expires=Thu, 21 Sep 2023 00:20:31 GMT; Max-Age=7199; SameSite=None; Securebm_sv=4C60C01A249041E77FA4347B22D8BFC3~YAAQ3prYF07DlqyKAQAARj6utBXPve+PvmW43Wqa2TnV7Ut8AcI57KFVBJlpashqFLDsKuRne1XVKDAV\/qVXmxA8oTybCcOgunoZIcBxcJVkPoWXWYkzrSD+UkI01JuggrjPjJPzD+gQAexAEy1uWQu40HewiW2wZEWgxVyqL4FvRp8tZez+9kAUpbNNpbaUA\/adtiS+6i2Blcyi1mKHj3S\/QqDXNG4qGkieN9WEBW2CFqdi1x2el0vkt1wAYHo=~1; Domain=.mobile.de; Path=\/; Expires=Thu, 21 Sep 2023 00:20:31 GMT; Max-Age=7199; SameSite=None; Secure",
+                "Spb-strict-transport-security": "max-age=15724800; includeSubDomains",
+                "Spb-vary": "Accept-Encoding,User-Agent,Origin",
+                "Spb-x-akamai-transformed": "9 - 0 pmb=mTOE,4",
+                "Spb-x-content-type-options": "nosniff",
+                "Spb-x-frame-options": "DENY",
+                "Spb-x-xss-protection": "1; mode=block",
+                "Spb-cost": "25",
+                "Spb-initial-status-code": "200",
+                "Spb-resolved-url": "https:\/\/suchen.mobile.de\/fahrzeuge\/search.html?dam=0&isSearchRequest=true&ms=25200%3B27%3B%3B%3B&ref=srp&refId=d0e98442-0ccd-b86a-3c5c-6dc2dfc3e02c&s=Car&sb=rel&vc=Car",
+                "Set-Cookie": "bm_sz=3D4812F8630B5EE251295F3A22AD0E0C~YAAQ3prYF\/XClqyKAQAAjDiutBWvqzufBvyR\/ZzpHOYViCmZ9f\/+OSoV8rxY0OljcUdvuDWL3f\/XLzNsmci5UK+ISpbIyUELM+hiywwXR0dtjaq42zG\/4uRrIuEA3+9Eyb4hyurGVI5wpDmctyjaf4PdeJj+ZPkeZkqyw0lpwA\/n4Hy3GNFlDxrvvOOSmRQ2hV4MwwqyaAYtU38clZll5oQ\/YSQeYjVCQGqwHECjfNH\/diu4NqNPFRJTKMq4zs5hQjKGVYeySQzA\/DJUWJ6BKK2ewysA4p97lFAXh8EGG2LZeQ==~3490370~3684406; Domain=mobile.de; Expires=Thu, 21 Sep 2023 02:20:31 GMT; Path=\/",
+                "Access-Control-Allow-Origin": "*",
+                "Permissions-Policy": "browsing-topics=()",
+                "X-Frame-Options": "SAMEORIGIN",
+                "X-Content-Type-Options": "nosniff",
+                "Strict-Transport-Security": "max-age=31556926; includeSubDomains",
+                "Referrer-Policy": "strict-origin-when-cross-origin",
+                "Vary": "Cookie",
+                "Sozu-Id": "01HATAWBBBC7T3G43MA2GMDATP"
+            },
+            "body": "{\"title\": \"Volkswagen Polo | Auto kaufen bei mobile.de\", \"items\": []}"
+        }
+    },
+    "exec_time": 12.160192012786865
+}
